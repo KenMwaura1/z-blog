@@ -4,25 +4,25 @@
 pyenv install 3.10.9
 ```
 
-# Set your python version
+## Set your python version
 
 ```
 pyenv global 3.10.9
 ```
 
-# Create virual environment
+## Create virual environment
 
 ```
 python -m venv venv
 ```
 
-# Activate environment
+## Activate environment
 
 ```
 source venv/bin/activate
 ```
 
-# Install Flask
+## Install Flask
 
 ```
 pip install flask
