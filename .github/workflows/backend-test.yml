@@ -38,4 +38,12 @@ jobs:
       run: |
         cd backend-flask
         python3 app.py
+        sleep 10
         
+    - name: Clean up
+      run: |
+        cd backend-flask
+        rm -rf __pycache__
+        rm -rf .pytest_cache
+        rm -rf .coverage
+        rm -rf .cove
